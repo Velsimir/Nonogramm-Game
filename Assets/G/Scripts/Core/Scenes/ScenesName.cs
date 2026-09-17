@@ -4,5 +4,6 @@ namespace G.Core.Scenes
     {
         Boot = 0,
         Game = 1,
+        Menu = 2,
     }
 }

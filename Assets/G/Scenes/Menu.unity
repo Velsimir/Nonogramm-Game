@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::G.Core.DI.UIInstaller
   _layerRoots: {fileID: 2038716371}
-  _pages: {fileID: 11400000, guid: 9b5a2c543e4874d4bb21020fc0b010c2, type: 2}
+  _pages: {fileID: 11400000, guid: 18aba4e846a26e642af5cb1506f4b2f8, type: 2}
 --- !u!114 &941057735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,9 +498,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 941057733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 619fd3e13b03b0641a17ecaa0c092735, type: 3}
+  m_Script: {fileID: 11500000, guid: c0bfa24fafe0f30468f2ff7f8db18773, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::G.Gameplay.DI.GameSceneInstaller
+  m_EditorClassIdentifier: Assembly-CSharp::G.Meta.DI.MenuSceneInstaller
 --- !u!1 &947334477
 GameObject:
   m_ObjectHideFlags: 0

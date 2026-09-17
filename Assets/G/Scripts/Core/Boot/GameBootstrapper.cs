@@ -55,7 +55,7 @@ namespace G.Core.Boot
                 new InitializePlatformSdkOperation(_platformSdk),
                 new LoadSaveOperation(_saveService),
                 new RestoreProgressOperation(_saveService),
-                new LoadSceneOperation(_sceneLoader, ScenesName.Game),
+                new LoadSceneOperation(_sceneLoader, ScenesName.Menu),
             };
 
             bool succeeded = await _loadingService.BeginLoadingAsync(operations, cancellationToken);
@@ -66,7 +66,7 @@ namespace G.Core.Boot
                 return;
             }
 
-            _sceneLoader.SetActive(ScenesName.Game);
+            _sceneLoader.SetActive(ScenesName.Menu);
 
             await _curtain.HideAsync(cancellationToken);
 

@@ -9,6 +9,7 @@ namespace G.Core.Scenes
         {
             { ScenesName.Boot, "Boot" },
             { ScenesName.Game, "Game" },
+            { ScenesName.Menu, "Menu" },
         };
 
         public static IReadOnlyDictionary<ScenesName, string> All => Names;
