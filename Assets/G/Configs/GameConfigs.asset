@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::G.Configs.GameConfigs
   _pages: {fileID: 11400000, guid: 9b5a2c543e4874d4bb21020fc0b010c2, type: 2}
   _platformSdk: {fileID: 11400000, guid: 9f7fb3588465014419aa59e01cd2fd7a, type: 2}
+  _nonogramRule: {fileID: 11400000, guid: cfe44fba980a57848889883dacef6b99, type: 2}
+  _nonogramLevels: {fileID: 11400000, guid: ba219586162643744865dce5b6a9d8d2, type: 2}

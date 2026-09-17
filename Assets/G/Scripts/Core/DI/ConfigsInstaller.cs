@@ -24,6 +24,8 @@ namespace G.Core.DI
 
             BindChild(_gameConfigs.Pages, nameof(GameConfigs.Pages));
             BindChild(_gameConfigs.PlatformSdk, nameof(GameConfigs.PlatformSdk));
+            BindChild(_gameConfigs.NonogramRule, nameof(GameConfigs.NonogramRule));
+            BindChild(_gameConfigs.NonogramLevels, nameof(GameConfigs.NonogramLevels));
         }
 
         private void BindChild<TConfig>(TConfig config, string name) where TConfig : ScriptableObject
