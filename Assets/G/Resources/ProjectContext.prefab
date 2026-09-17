@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 529677773889717306}
   - component: {fileID: 146209997466452834}
   - component: {fileID: 1788099147535262087}
+  - component: {fileID: 4953468255700975921}
   m_Layer: 0
   m_Name: ProjectContext
   m_TagString: Untagged
@@ -80,6 +81,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::G.Core.DI.ProjectInstaller
   _curtainPrefab: {fileID: 5233120595707157512, guid: d464ba4ae912a2d4d99a0f7d8c7712ec, type: 3}
   _platformSdkConfig: {fileID: 11400000, guid: 9f7fb3588465014419aa59e01cd2fd7a, type: 2}
+--- !u!81 &4953468255700975921
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2883855607863324522}
+  m_Enabled: 1
 --- !u!1 &8387397138325711070
 GameObject:
   m_ObjectHideFlags: 0
